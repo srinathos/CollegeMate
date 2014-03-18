@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CollegeMate</string>
+    <string name="WelcomeMessage">Welcome to CollegeMate!
+        Keep updated with the latest news and updates,
+        keep track of your profile (determine how much more you can bunk ;) ) and much
+        more using CollegeMate! Welcome, to a better experience!</string>
+    <string name="authors">Developed by Srinath Obla and Shatavarth Cheruvu</string>
+    <string name="warn1">Warning: This application is a prototype and is not dynamically
+        functional. The application is currently under development and is not currently
+        affiliated with any institutes/future clients. Do NOT use this application for
+        any reference!</string>
+    <string name="start">Get Started!</string>
+    <string name="tip1">You can log in to this application using your Moodle™ ID and password combination provided by you university!</string>
+    <string name="tip2">Do you have a Moodle™ account provided by the college?</string>
+    <string name="login">Yes, I do!</string>
+    <string name="register">No, I do not!</string>
+    <string name="login1">Enter your login ID and password!</string>
+    <string name="login_id">ID:</string>
+    <string name="login_pass">Password:</string>
+    <string name="notice_title">Notice Board</string>
+    <string name="action_refresh">Refresh</string>
+    <string-array name="attendance_subjects">
+        <item>Applied Mathematics III</item>
+        <item>Object Oriented Programming</item>
+    </string-array>
+
+    <string-array name="nav_drawer_items">
+        <item>Notice Board</item>
+        <item>Attendance</item>
+        <item>Profile</item>
+        <item>Performance</item>
+    </string-array>
+
+
+    <string name="refresh_message">Refreshing!</string>
+
+</resources>

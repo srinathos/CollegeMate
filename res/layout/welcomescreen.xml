@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:padding="10dp"
+        >
+
+    <TextView
+        android:id="@+id/WelcomeMessage"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/WelcomeMessage"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <TextView
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:text="@string/warn1"
+            android:gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            android:textSize="10sp"
+            android:textColor="#808080"
+        />
+
+    <TextView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center|bottom"
+        android:textSize="11sp"
+        android:text="@string/authors"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:layout_below="@id/WelcomeMessage"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="100dp"
+        />
+</RelativeLayout>

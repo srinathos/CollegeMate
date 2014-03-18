@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        >
+    <ImageView
+            android:id="@+id/notice_row_messagestatus"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:contentDescription="Notice Status"
+        />
+    <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="16dp"
+                    >
+
+        <TextView
+                android:id="@+id/notice_row_noticehead"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="20sp"
+            />
+        <TextView
+                android:id="@+id/notice_row_noticesender"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/notice_row_noticehead"
+                android:gravity="bottom"
+                android:textColor="#808080"
+                android:textSize="13sp"
+            />
+    </RelativeLayout>
+</LinearLayout>
